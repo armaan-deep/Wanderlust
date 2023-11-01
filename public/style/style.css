@@ -52,8 +52,8 @@ body::-webkit-scrollbar{
     width: 100%;   
 }
 
-.footer a{
-    text-decoration: none;
+.footer-social-links a{
+    text-decoration: none !important;
 }
 
 
