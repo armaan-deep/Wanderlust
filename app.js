@@ -92,6 +92,14 @@ app.get("/",(req,res)=>{
   res.redirect("/listings");
 })
 
+app.get("/terms",(req,res)=>{
+  res.redirect("./nav/term.ejs");
+})
+
+app.get("/privacy",(req,res)=>{
+  res.redirect("./nav/privacy.ejs");
+})
+
  app.all("*",(req,res,next)=>{
  next(new ExpressError(404,"Page Not found"));
 }); 
