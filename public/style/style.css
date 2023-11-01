@@ -12,6 +12,7 @@ body::-webkit-scrollbar{
 
 
 
+
                          /* NAvbar */
 .nav-link{
     color: black !important;
@@ -49,6 +50,10 @@ body::-webkit-scrollbar{
 
 .footer-social-links,.footer-links{
     width: 100%;   
+}
+
+.footer a{
+    text-decoration: none;
 }
 
 

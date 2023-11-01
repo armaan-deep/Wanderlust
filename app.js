@@ -93,11 +93,11 @@ app.get("/",(req,res)=>{
 })
 
 app.get("/terms",(req,res)=>{
-  res.redirect("./nav/term.ejs");
+  res.render("./nav/term.ejs");
 })
 
 app.get("/privacy",(req,res)=>{
-  res.redirect("./nav/privacy.ejs");
+  res.render("./nav/privacy.ejs");
 })
 
  app.all("*",(req,res,next)=>{
