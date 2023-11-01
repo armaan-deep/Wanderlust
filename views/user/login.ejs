@@ -1,0 +1,19 @@
+<div class=row>
+    <%layout("/layouts/boiler")%>
+      <div class="col-6 offset-3"><br/><br/>
+      <h2>Log in</h2>
+        <form action="/login" method="post" novalidate class="needs-validation" >
+          <div class="mb-3">
+            <label for="username" class="form-label">Username</label>
+            <input type="text" class="form-control" required name="username">
+          </div>
+          
+
+          <div class="mb-3">
+               <label for="password" class="form-label">Password</label>
+               <input type="password" name="password" required class="form-control">
+          </div>
+          <button class="btn btn-dark ">Submit</button>
+        </form> 
+      </div>
+    </div>

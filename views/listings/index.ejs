@@ -1,0 +1,106 @@
+<script>
+  let srch=document.getElementById("srch");
+  srch.style.display="block";
+</script>
+<%layout("/layouts/boiler")%>
+<br/>  
+<div class="filters">
+<a href="/listings/room">
+  <div id="room" class="filter">
+    <div><i class="fa-solid fa-bed" ></i></div>
+    <p>Rooms</p>
+  </div>
+</a>
+<a href="/listings/iconic">
+  <div class="filter">
+    <div><i class="fa-solid fa-city"></i></div>
+    <p>Iconic City</p>
+  </div>
+</a>  
+<a href="/listings/artic">
+  <div class="filter">
+    <div><i class="fa-solid fa-snowflake"></i></div>
+    <p>Artic</p>
+  </div>
+</a>
+<a href="/listings/castle">
+  <div class="filter">
+    <div><i class="fa-brands fa-fort-awesome"></i></div>
+    <p>Castle</p>
+  </div>
+</a>
+<a href="/listings/recently-added">
+  <div class="filter">
+    <div><i class="fa-solid fa-key"></i></div>
+    <p>New</p>
+  </div>
+</a>
+<a href="/listings/mountain">
+  <div class="filter">
+    <div><i class="fa-solid fa-mountain"></i></div>
+    <p>Mountains</p>
+  </div>
+</a>
+<a href="/listings/water">  
+  <div class="filter">
+    <div><i class="fa-solid fa-person-swimming"></i></div>
+    <p>Cool Pools</p>
+  </div>
+</a> 
+<a href="/listings/farm">
+ <div class="filter">
+    <div><i class="fa-solid fa-tractor"></i></div>
+    <p>Farms</p>
+  </div>
+</a>
+<a href="/listings/dome">
+  <div class="filter">
+    <div><i class="fa-solid fa-igloo"></i></div>
+    <p>Dome</p>
+  </div>  
+</a>
+<a href="/listings/camping">
+  <div class="filter">
+    <div><i class="fa-solid fa-campground"></i></div>
+    <p>Camping</p>
+  </div>
+</a>
+<a href="/listings/other">
+  <div class="filter">
+    <div><i class="fa-solid fa-otter"></i></div>
+    <p>Others</p>
+  </div>
+</a>
+ <div class="tax-switch">
+  <div class="form-switch form-check-reverse">
+    <input class="form-check-input " type="checkbox" role="switch" id="flexSwitchCheckDefault">
+    <label class="form-check-label" for="flexSwitchCheckDefault">Show Taxe's</label>
+  </div>
+ </div>
+
+</div>
+
+<div class="card-cont">
+    <%for(list of allList){%>
+      <a href="/listings/<%= list._id %>">
+      <div class="card">
+        <img class="card-img-top " src="<%= list.image.url %>" alt="<%= list.id %> iamge">
+            <div class="card-img-overlay"></div>
+    
+        <div class="card-body">
+         <div class="card-det">
+            <p class="card-text"><%= list.title %></p>
+            <a class="card-id"><%= list._id %></a>
+        </div>
+           <p> &#8377 <%=list.price?.toLocaleString("en-IN")%>/night
+            <i class="tax-info">&plus; &nbsp; 27% GST</i> </p>
+          
+        </div>
+      </div>
+      
+    <%} %> 
+  </a>
+</div>
+</form>
+
+

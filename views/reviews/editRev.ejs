@@ -1,0 +1,16 @@
+<% layout("/layouts/boiler.ejs") %>
+<div class="mt-5 mb-3">             <!--  Updating reviews --> 
+    
+    <form method="post" action="/listings/<%=list._id%>/review/<%=Review._id%>/edit?_method=PUT" novalidate class="needs-validation">
+      <h3>Update your own review</h3>
+
+      <div class="rw-c-bd">
+      <label for="rating" class="form-label">Rating : </label>
+      <input type="range"  value="<%=Review.rating%>" name="review[rating]" min="1" max="5" class="form-range" id="rating">
+      
+      <label for="comment" class="form-label">Comments : </label>
+      <textarea name="review[comment]" required class="form-control" cols="30" rows="5" id="comment"><%=Review.comment%></textarea>
+        <div class="invalid-feedback">Please give some review </div><br>
+      <button class="btn btn-outline-dark">Submit</button>
+    </div>
+    </form>
