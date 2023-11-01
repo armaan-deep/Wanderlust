@@ -36,6 +36,7 @@ body::-webkit-scrollbar{
 .fa-brands{
     font-size: 1.3rem;
     margin-right: 1rem;
+     color: #000;
 }
 
 .footer{
@@ -55,7 +56,9 @@ body::-webkit-scrollbar{
 .footer-social-links a{
     text-decoration: none !important;
 }
-
+.center{
+    text-align: center;
+}
 
                     /* card of index(main) */
 .card-cont{
