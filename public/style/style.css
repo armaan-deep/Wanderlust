@@ -58,6 +58,7 @@ body::-webkit-scrollbar{
 }
 .center{
     text-align: center;
+    margin-top: 15%;
 }
 
                     /* card of index(main) */
