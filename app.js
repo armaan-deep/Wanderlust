@@ -63,6 +63,7 @@ let sessionOptions={
     res.locals.sucMsg = req.flash("sucess");
     res.locals.errMsg = req.flash("error");
     res.locals.currUser = req.user; 
+    next();
   })
   
 
