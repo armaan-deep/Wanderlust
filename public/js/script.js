@@ -53,3 +53,17 @@
  
 
 
+nav=document.getElementsByClassName("navbar-toggler-iconlet");
+filters=document.getElementsByClassName("filters");
+let x=1
+nav[0].addEventListener("click",()=>
+{
+  if(x==1){
+    filters[0].style.display=none;
+    x=0;
+  }
+  else{
+    filters[0].style.display=block;
+    x=1;
+  }
+})
