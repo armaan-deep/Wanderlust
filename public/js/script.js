@@ -51,19 +51,3 @@
     }
   })
  
-
-
-let nav=document.getElementsByClassName("navbar-toggler");
-let filters=document.getElementsByClassName("filters");
-let x=1;
-nav.addEventListener("click",()=>
-{
-  if(x==1){
-    filters.style.display=none;
-    x=0;
-  }
-  else{
-    filters.style.display=block;
-    x=1;
-  }
-})

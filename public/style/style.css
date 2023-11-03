@@ -331,3 +331,8 @@ justify-content: center;
       display:none !important;
     }
   }
+
+  .collapse{
+  display: block !important;
+  z-index: 2 !important;
+  }
