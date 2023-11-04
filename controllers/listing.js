@@ -78,7 +78,10 @@ module.exports.editListing=async (req,res,next)=>{
 
 module.exports.filter=async(req,res,next)=>{  
    let filter = req.path;
-   filter=filter.slice(1);  
+   filter=filter.slice(1);
+    if(filter=="recently-added"){
+        filter="new";
+    }
    let lists=await Listing.find({category:filter});
     res.render("./listings/srch.ejs",{lists,filter});
 };
