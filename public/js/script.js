@@ -51,7 +51,15 @@
     }
   })
  let navButton=document.getElementsByClassName("navbar-toggler");
-  let filters=document.getElementsByClassName("filters");
- navButton[0].addEventListener("click",()=>{
-    filters[0].style.marginTop="200px";
+let filters=document.getElementsByID("navbarNavAltMarkup");
+let switch="false";
+navButton[0].addEventListener("click",()=>{
+    if(switch=="false"){
+     filters.style.marginTop="200px";
+     switch="true" 
+     }
+    else{
+        filters.style.marginTop="0px";
+        switch="false"
+    }
 })
