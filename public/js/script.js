@@ -50,4 +50,8 @@
       }
     }
   })
- 
+ let navButton=document.getElementsByClassName("navbar-toggler");
+  let filters=document.getElementsByClassName("filters");
+ navButton[0].addEventListener("click",()=>{
+    filters[0].style.marginTop="200px";
+})
