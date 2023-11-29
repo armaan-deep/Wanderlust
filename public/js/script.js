@@ -59,12 +59,12 @@
 navButton[0].addEventListener("click",()=>{
     let switchbtn="false";
     if(switchbtn=="false"){
-        console.log(filter);
-     filter.style.display="none";
+        console.log(filter[0]);
+     filter[0].style.display="none";
      switchbtn="true" 
      }
     else{
-        filters.style.marginTop="0px";
+        filter[0].style.marginTop="0px";
         switchbtn="false"
     }
 })
