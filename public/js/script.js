@@ -53,17 +53,18 @@
       }
     }
   })
-//  let navButton=document.getElementsByClassName("navbar-toggler");
-// let filters=document.getElementsByID("navbarNavAltMarkup");
+  
+ let navButton=document.getElementsByClassName("navbar-toggler");
+  let filters=document.getElementsByID("navbarNavAltMarkup");
 
-// navButton[0].addEventListener("click",()=>{
-//     let switch="false";
-//     if(switch=="false"){
-//      filters.style.marginTop="200px";
-//      switch="true" 
-//      }
-//     else{
-//         filters.style.marginTop="0px";
-//         switch="false"
-//     }
-// })
+navButton[0].addEventListener("click",()=>{
+    let switchbtn="false";
+    if(switchbtn=="false"){
+     filters.style.marginTop="200px";
+     switchbtn="true" 
+     }
+    else{
+        filters.style.marginTop="0px";
+        switchbtn="false"
+    }
+})
