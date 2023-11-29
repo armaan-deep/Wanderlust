@@ -55,16 +55,15 @@
   })
   
  let navButton=document.getElementsByClassName("navbar-toggler");
-  
+ let filter=document.getElementsByClassName("collapse"); 
 navButton[0].addEventListener("click",()=>{
-    let filters=document.getElementsByID("navbarNavAltMarkup");
     let switchbtn="false";
     if(switchbtn=="false"){
-     filters[0].style.marginTop="200px";
+     filter.style.marginTop="200px";
      switchbtn="true" 
      }
     else{
-        filters[0].style.marginTop="0px";
+        filters.style.marginTop="0px";
         switchbtn="false"
     }
 })
