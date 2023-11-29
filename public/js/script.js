@@ -56,13 +56,13 @@
   
  let navButton=document.getElementsByClassName("navbar-toggler");
  let filter=document.getElementsByClassName("filters"); 
+let switchbtn="false";
 navButton[0].addEventListener("click",()=>{
-    let switchbtn="false";
     if(switchbtn=="false"){
      filter[0].style.marginTop="9rem";
      switchbtn="true" 
      }
-    else if(switchbtn=="true"){
+    else{
         filter[0].style.marginTop="0px";
         switchbtn="false"
     }
