@@ -60,7 +60,7 @@ navButton[0].addEventListener("click",()=>{
     let switchbtn="false";
     if(switchbtn=="false"){
         console.log(filter[0]);
-     filter[0].style.display="none";
+     filter[0].style.marginTop="12rem";
      switchbtn="true" 
      }
     else{
