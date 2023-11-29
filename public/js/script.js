@@ -23,14 +23,14 @@
    let taxSwitch=document.getElementById("flexSwitchCheckDefault");
     let tax_info=document.getElementsByClassName("tax-info");
     taxSwitch.addEventListener("click",()=>{
-      console.log("I am clicked");
+      
       for(tax of tax_info){
       if(tax.style.display !="inline"){
         tax.style.display  ="inline";
-           console.log("I am clicked and set to ON");
+          
       }else{
         tax.style.display ="none";
-          console.log("I am clicked and set to OFF");
+         
       }}
   })
 
