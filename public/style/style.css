@@ -334,4 +334,7 @@ justify-content: center;
       display:none !important;
     }
   }
-
+@media (max-width: 47.938rem) {
+        #srch{
+          display: none !important;
+        }
