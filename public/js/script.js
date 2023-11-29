@@ -55,8 +55,9 @@
   })
  let navButton=document.getElementsByClassName("navbar-toggler");
 let filters=document.getElementsByID("navbarNavAltMarkup");
-let switch="false";
+
 navButton[0].addEventListener("click",()=>{
+    let switch="false";
     if(switch=="false"){
      filters.style.marginTop="200px";
      switch="true" 
