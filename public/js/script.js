@@ -55,7 +55,7 @@
   })
   
  let navButton=document.getElementsByClassName("navbar-toggler");
- let filter=document.getElementsByClassName("collapse"); 
+ let filter=document.getElementsByClassName("filters"); 
 navButton[0].addEventListener("click",()=>{
     let switchbtn="false";
     if(switchbtn=="false"){
