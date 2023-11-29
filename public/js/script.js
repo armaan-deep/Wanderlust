@@ -58,6 +58,7 @@
  let filter=document.getElementsByClassName("filters"); 
 let switchbtn="false";
 navButton[0].addEventListener("click",()=>{
+    let switchbtn="false";
     if(switchbtn=="false"){
      filter[0].style.marginTop="9rem";
      switchbtn="true" 
