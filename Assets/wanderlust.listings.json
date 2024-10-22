@@ -1,0 +1,708 @@
+[{
+  "_id": {
+    "$oid": "6540038641894f33fd31d188"
+  },
+  "title": "Cozy Beachfront Cottage",
+  "description": "Escape to this charming beachfront cottage for a relaxing getaway. Enjoy stunning ocean views and easy access to the beach.",
+  "price": 1500,
+  "location": "Malibu",
+  "country": "United States",
+  "review": [],
+  "owner": {
+    "$oid": "653fe31eaf796120a8015e1e"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      "-118.788193",
+      "34.031246"
+    ]
+  },
+  "__v": 0,
+  "image": {
+    "url": "https://res.cloudinary.com/dfd52un8n/image/upload/v1698695106/Wanderlust_DEV/ij9o7mlnymmn7rfv1ylr.webp",
+    "filename": "Wanderlust_DEV/ij9o7mlnymmn7rfv1ylr"
+  },
+  "category": "other"
+},
+{
+  "_id": {
+    "$oid": "6540038641894f33fd31d189"
+  },
+  "title": "Modern Loft in Downtown",
+  "description": "Stay in the heart of the city in this stylish loft apartment. Perfect for urban explorers!",
+  "price": 1200,
+  "location": "New York City",
+  "country": "America",
+  "review": [
+    {
+      "$oid": "654119d2d51187f4a29c44de"
+    }
+  ],
+  "owner": {
+    "$oid": "653fe31eaf796120a8015e1e"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      "74.0060",
+      "40.7128"
+    ],
+    "category": "other"
+  },
+  "__v": 1,
+  "image": {
+    "url": "https://res.cloudinary.com/dfd52un8n/image/upload/v1698695501/Wanderlust_DEV/j9via7janlw3drtdc2on.jpg",
+    "filename": "Wanderlust_DEV/j9via7janlw3drtdc2on"
+  },
+  "category": "water"
+},
+{
+  "_id": {
+    "$oid": "6540038641894f33fd31d18a"
+  },
+  "title": "Mountain Retreat",
+  "description": "Unplug and unwind in this peaceful mountain cabin. Surrounded by nature, it's a perfect place to recharge.",
+  "price": 1000,
+  "location": "Aspen",
+  "country": "United States",
+  "review": [],
+  "owner": {
+    "$oid": "653fe31eaf796120a8015e1e"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      "106.8175",
+      "39.1911"
+    ]
+  },
+  "__v": 0,
+  "image": {
+    "url": "https://res.cloudinary.com/dfd52un8n/image/upload/v1698695591/Wanderlust_DEV/t2qox63y4vueqphjbep1.jpg",
+    "filename": "Wanderlust_DEV/t2qox63y4vueqphjbep1"
+  },
+  " category ": "water"
+},
+{
+  "_id": {
+    "$oid": "6540038641894f33fd31d18b"
+  },
+  "title": "Historic Villa in Tuscany",
+  "description": "Experience the charm of Tuscany in this beautifully restored villa. Explore the rolling hills and vineyards.",
+  "price": 2500,
+  "location": "Florence",
+  "country": "Italy",
+  "review": [],
+  "owner": {
+    "$oid": "653fe31eaf796120a8015e1e"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      "11.2558",
+      "43.7696"
+    ]
+  },
+  "__v": 0,
+  "image": {
+    "url": "https://res.cloudinary.com/dfd52un8n/image/upload/v1698695668/Wanderlust_DEV/yhrborpv7awbwutmazvd.jpg",
+    "filename": "Wanderlust_DEV/yhrborpv7awbwutmazvd"
+  },
+  "category": "water"
+},
+{
+  "_id": {
+    "$oid": "6540038641894f33fd31d18c"
+  },
+  "title": "Secluded Treehouse Getaway",
+  "description": "Live among the treetops in this unique treehouse retreat. A true nature lover's paradise.",
+  "price": 800,
+  "location": "Portland",
+  "country": "United States",
+  "review": [],
+  "owner": {
+    "$oid": "653fe31eaf796120a8015e1e"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      "122.6784",
+      "45.5152"
+    ]
+  },
+  "__v": 0,
+  "image": {
+    "url": "https://res.cloudinary.com/dfd52un8n/image/upload/v1698695743/Wanderlust_DEV/uzdniruyvphz71l21dud.jpg",
+    "filename": "Wanderlust_DEV/uzdniruyvphz71l21dud"
+  },
+  "category": "water"
+},
+{
+  "_id": {
+    "$oid": "6540038641894f33fd31d18d"
+  },
+  "title": "Beachfront Paradise",
+  "description": "Step out of your door onto the sandy beach. This beachfront condo offers the ultimate relaxation.",
+  "price": 2000,
+  "location": "Cancun",
+  "country": "Mexico",
+  "review": [],
+  "owner": {
+    "$oid": "653fe31eaf796120a8015e1e"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      "86.8515",
+      "21.1619"
+    ]
+  },
+  "__v": 0,
+  "image": {
+    "url": "https://res.cloudinary.com/dfd52un8n/image/upload/v1698712167/Wanderlust_DEV/p5da53ildqjdwrmuj3wm.jpg",
+    "filename": "Wanderlust_DEV/p5da53ildqjdwrmuj3wm"
+  },
+  "category": "room"
+},
+{
+  "_id": {
+    "$oid": "6540038641894f33fd31d18e"
+  },
+  "title": "Rustic Cabin by the Lake",
+  "description": "Spend your days fishing and kayaking on the serene lake. This cozy cabin is perfect for outdoor enthusiasts.",
+  "price": 900,
+  "location": "Lake Tahoe",
+  "country": "United States",
+  "review": [],
+  "owner": {
+    "$oid": "653fe31eaf796120a8015e1e"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      "120.0324",
+      "39.0968"
+    ]
+  },
+  "__v": 0,
+  "image": {
+    "url": "https://res.cloudinary.com/dfd52un8n/image/upload/v1698695857/Wanderlust_DEV/zkkoix452ltq5gx43s3u.jpg",
+    "filename": "Wanderlust_DEV/zkkoix452ltq5gx43s3u"
+  },
+  "category": "mountain"
+},
+{
+  "_id": {
+    "$oid": "6540038641894f33fd31d18f"
+  },
+  "title": "Luxury Penthouse with City Views",
+  "description": "Indulge in luxury living with panoramic city views from this stunning penthouse apartment.",
+  "price": 3500,
+  "location": "Los Angeles",
+  "country": "United States",
+  "review": [],
+  "owner": {
+    "$oid": "653fe31eaf796120a8015e1e"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      "118.2426",
+      "34.0549"
+    ]
+  },
+  "__v": 0,
+  "image": {
+    "url": "https://res.cloudinary.com/dfd52un8n/image/upload/v1698712439/Wanderlust_DEV/ov2zpltnrexzootfxp8f.avif",
+    "filename": "Wanderlust_DEV/ov2zpltnrexzootfxp8f"
+  },
+  "category": "water"
+},
+{
+  "_id": {
+    "$oid": "6540038641894f33fd31d190"
+  },
+  "title": "Safari Lodge in the Serengeti",
+  "description": "Experience the thrill of the wild in a comfortable safari lodge. Witness the Great Migration up close.",
+  "price": 4000,
+  "location": "Serengeti National Park",
+  "country": "Tanzania",
+  "review": [],
+  "owner": {
+    "$oid": "653fe31eaf796120a8015e1e"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      "34.8333",
+      "2.3333"
+    ]
+  },
+  "__v": 0,
+  "image": {
+    "url": "https://res.cloudinary.com/dfd52un8n/image/upload/v1698696015/Wanderlust_DEV/xfbb5ms04ks0v7dlzz9r.jpg",
+    "filename": "Wanderlust_DEV/xfbb5ms04ks0v7dlzz9r"
+  },
+  "category": "mountain"
+},
+{
+  "_id": {
+    "$oid": "6540038641894f33fd31d191"
+  },
+  "title": "Historic Canal House",
+  "description": "Stay in a piece of history in this beautifully preserved canal house in Amsterdam's iconic district.",
+  "price": 1800,
+  "location": "Amsterdam",
+  "country": "Netherlands",
+  "review": [],
+  "owner": {
+    "$oid": "653fe31eaf796120a8015e1e"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      "4.9041",
+      "52.3676"
+    ]
+  },
+  "__v": 0,
+  "image": {
+    "url": "https://res.cloudinary.com/dfd52un8n/image/upload/v1698696320/Wanderlust_DEV/knloig5ejlmhxfjgtglm.webp",
+    "filename": "Wanderlust_DEV/knloig5ejlmhxfjgtglm"
+  },
+  "category": "camping"
+},
+{
+  "_id": {
+    "$oid": "6540038641894f33fd31d192"
+  },
+  "title": "Private Island Retreat",
+  "description": "Have an entire island to yourself for a truly exclusive and unforgettable vacation experience.",
+  "price": 10000,
+  "location": "Fiji",
+  "country": "Fiji",
+  "review": [],
+  "owner": {
+    "$oid": "653fe31eaf796120a8015e1e"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      "178.0650",
+      "17.7134"
+    ]
+  },
+  "__v": 0,
+  "image": {
+    "url": "https://res.cloudinary.com/dfd52un8n/image/upload/v1698696391/Wanderlust_DEV/zkhz3z6gbwawcvzo4kcc.jpg",
+    "filename": "Wanderlust_DEV/zkhz3z6gbwawcvzo4kcc"
+  },
+  "category": "farm"
+},
+{
+  "_id": {
+    "$oid": "6540038641894f33fd31d193"
+  },
+  "title": "Charming Cottage in the Cotswolds",
+  "description": "Escape to the picturesque Cotswolds in this quaint and charming cottage with a thatched roof.",
+  "price": 1200,
+  "location": "Cotswolds",
+  "country": "United Kingdom",
+  "review": [],
+  "owner": {
+    "$oid": "653fe31eaf796120a8015e1e"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      "1.8839",
+      "51.7950"
+    ]
+  },
+  "__v": 0,
+  "image": {
+    "url": "https://res.cloudinary.com/dfd52un8n/image/upload/v1698696469/Wanderlust_DEV/iaohxcjjgfm7xfx7hmwv.jpg",
+    "filename": "Wanderlust_DEV/iaohxcjjgfm7xfx7hmwv"
+  },
+  "category": "water"
+},
+{
+  "_id": {
+    "$oid": "6540038641894f33fd31d194"
+  },
+  "title": "Historic Brownstone in Boston",
+  "description": "Step back in time in this elegant historic brownstone located in the heart of Boston.",
+  "price": 2200,
+  "location": "Boston",
+  "country": "United States",
+  "review": [],
+  "owner": {
+    "$oid": "653fe31eaf796120a8015e1e"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      "71.0589",
+      "42.3601"
+    ]
+  },
+  "__v": 0,
+  "image": {
+    "url": "https://res.cloudinary.com/dfd52un8n/image/upload/v1698712327/Wanderlust_DEV/kyruof2kehralk7rxdte.jpg",
+    "filename": "Wanderlust_DEV/kyruof2kehralk7rxdte"
+  },
+  "category": "room"
+},
+{
+  "_id": {
+    "$oid": "6540038641894f33fd31d195"
+  },
+  "title": "Beachfront Bungalow in Bali",
+  "description": "Relax on the sandy shores of Bali in this beautiful beachfront bungalow with a private pool.",
+  "price": 1800,
+  "location": "Bali",
+  "country": "Indonesia",
+  "review": [],
+  "owner": {
+    "$oid": "653fe31eaf796120a8015e1e"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      "113.9213",
+      "0.7893"
+    ]
+  },
+  "__v": 0,
+  "image": {
+    "url": "https://res.cloudinary.com/dfd52un8n/image/upload/v1698696609/Wanderlust_DEV/c7qepw4yuiulct1nrfw6.jpg",
+    "filename": "Wanderlust_DEV/c7qepw4yuiulct1nrfw6"
+  },
+  "category": "camping"
+},
+{
+  "_id": {
+    "$oid": "6540038641894f33fd31d196"
+  },
+  "title": "Mountain View Cabin in Banff",
+  "description": "Enjoy breathtaking mountain views from this cozy cabin in the Canadian Rockies.",
+  "price": 1500,
+  "location": "Banff",
+  "country": "Canada",
+  "review": [],
+  "owner": {
+    "$oid": "653fe31eaf796120a8015e1e"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      "115.5708",
+      "51.1784"
+    ]
+  },
+  "__v": 0,
+  "image": {
+    "url": "https://res.cloudinary.com/dfd52un8n/image/upload/v1698696672/Wanderlust_DEV/ge2ormdvkuqbbdlwsmt8.jpg",
+    "filename": "Wanderlust_DEV/ge2ormdvkuqbbdlwsmt8"
+  },
+  "category": "camping"
+},
+{
+  "_id": {
+    "$oid": "6540038641894f33fd31d197"
+  },
+  "title": "Art Deco Apartment in Miami",
+  "description": "Step into the glamour of the 1920s in this stylish Art Deco apartment in South Beach.",
+  "price": 1600,
+  "location": "Miami",
+  "country": "United States",
+  "review": [],
+  "owner": {
+    "$oid": "653fe31eaf796120a8015e1e"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      "80.1918",
+      "25.7617"
+    ]
+  },
+  "__v": 0,
+  "image": {
+    "url": "https://res.cloudinary.com/dfd52un8n/image/upload/v1698696731/Wanderlust_DEV/brfmre6a4mwsafmrfiu8.jpg",
+    "filename": "Wanderlust_DEV/brfmre6a4mwsafmrfiu8"
+  },
+  "category": "mountain"
+},
+{
+  "_id": {
+    "$oid": "6540038641894f33fd31d198"
+  },
+  "title": "Tropical Villa in Phuket",
+  "description": "Escape to a tropical paradise in this luxurious villa with a private infinity pool in Phuket.",
+  "price": 3000,
+  "location": "Phuket",
+  "country": "Thailand",
+  "review": [],
+  "owner": {
+    "$oid": "653fe31eaf796120a8015e1e"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      "98.3923",
+      "7.8804"
+    ]
+  },
+  "__v": 0,
+  "image": {
+    "url": "https://res.cloudinary.com/dfd52un8n/image/upload/v1698696786/Wanderlust_DEV/ob8frkrgpgxqp1yxqiqd.jpg",
+    "filename": "Wanderlust_DEV/ob8frkrgpgxqp1yxqiqd"
+  },
+  "category": "mountain"
+},
+{
+  "_id": {
+    "$oid": "6540038641894f33fd31d199"
+  },
+  "title": "Historic Castle in Scotland",
+  "description": "Live like royalty in this historic castle in the Scottish Highlands. Explore the rugged beauty of the area.",
+  "price": 4000,
+  "location": "Scottish Highlands",
+  "country": "United Kingdom",
+  "review": [],
+  "owner": {
+    "$oid": "653fe31eaf796120a8015e1e"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      "4.2264",
+      "57.4596"
+    ]
+  },
+  "__v": 0,
+  "image": {
+    "url": "https://res.cloudinary.com/dfd52un8n/image/upload/v1698696867/Wanderlust_DEV/hbfd5mzcnszw45aemp05.jpg",
+    "filename": "Wanderlust_DEV/hbfd5mzcnszw45aemp05"
+  },
+  "category": "castle"
+},
+{
+  "_id": {
+    "$oid": "6540038641894f33fd31d19a"
+  },
+  "title": "Desert Oasis in Dubai",
+  "description": "Experience luxury in the middle of the desert in this opulent oasis in Dubai with a private pool.",
+  "price": 5000,
+  "location": "Dubai",
+  "country": "United Arab Emirates",
+  "review": [],
+  "owner": {
+    "$oid": "653fe31eaf796120a8015e1e"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      "55.2708",
+      "25.2048"
+    ]
+  },
+  "__v": 0,
+  "image": {
+    "url": "https://res.cloudinary.com/dfd52un8n/image/upload/v1698696932/Wanderlust_DEV/m3mebx2cp2kyoawpv0vp.jpg",
+    "filename": "Wanderlust_DEV/m3mebx2cp2kyoawpv0vp"
+  },
+  "category": "iconic"
+},
+{
+  "_id": {
+    "$oid": "6540038641894f33fd31d19b"
+  },
+  "title": "Rustic Log Cabin in Montana",
+  "description": "Unplug and unwind in this cozy log cabin surrounded by the natural beauty of Montana.",
+  "price": 1100,
+  "location": "Montana",
+  "country": "United States",
+  "review": [],
+  "owner": {
+    "$oid": "653fe31eaf796120a8015e1e"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      "110.3626",
+      "46.8797"
+    ]
+  },
+  "__v": 0,
+  "image": {
+    "url": "https://res.cloudinary.com/dfd52un8n/image/upload/v1698712496/Wanderlust_DEV/galmjwzzrzhknfyllb4u.jpg",
+    "filename": "Wanderlust_DEV/galmjwzzrzhknfyllb4u"
+  },
+  "category": "farm"
+},
+{
+  "_id": {
+    "$oid": "6540038641894f33fd31d19c"
+  },
+  "title": "Beachfront Villa in Greece",
+  "description": "Enjoy the crystal-clear waters of the Mediterranean in this beautiful beachfront villa on a Greek island.",
+  "price": 2500,
+  "location": "Mykonos",
+  "country": "Greece",
+  "review": [],
+  "owner": {
+    "$oid": "653fe31eaf796120a8015e1e"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      "25.3667",
+      "37.4415"
+    ]
+  },
+  "__v": 0,
+  "image": {
+    "url": "https://res.cloudinary.com/dfd52un8n/image/upload/v1698697045/Wanderlust_DEV/dt9pvzjsdv12hybgmuw9.jpg",
+    "filename": "Wanderlust_DEV/dt9pvzjsdv12hybgmuw9"
+  },
+  "category": "room"
+},
+{
+  "_id": {
+    "$oid": "6540038641894f33fd31d19d"
+  },
+  "title": "Historic Cottage in Charleston",
+  "description": "Experience the charm of historic Charleston in this beautifully restored cottage with a private garden.",
+  "price": 1600,
+  "location": "Charleston",
+  "country": "United States",
+  "review": [],
+  "owner": {
+    "$oid": "653fe31eaf796120a8015e1e"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      "79.9311",
+      "32.7765"
+    ]
+  },
+  "__v": 0,
+  "image": {
+    "url": "https://res.cloudinary.com/dfd52un8n/image/upload/v1698697103/Wanderlust_DEV/jvhpfbts7ao51pnamg1d.jpg",
+    "filename": "Wanderlust_DEV/jvhpfbts7ao51pnamg1d"
+  },
+  "category": "mountain"
+},
+{
+  "_id": {
+    "$oid": "6540038641894f33fd31d19e"
+  },
+  "title": "Modern Apartment in Tokyo",
+  "description": "Explore the vibrant city of Tokyo from this modern and centrally located apartment.",
+  "price": 2000,
+  "location": "Tokyo",
+  "country": "Japan",
+  "review": [],
+  "owner": {
+    "$oid": "653fe31eaf796120a8015e1e"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      "139.6500",
+      "35.6764"
+    ]
+  },
+  "__v": 0,
+  "image": {
+    "url": "https://res.cloudinary.com/dfd52un8n/image/upload/v1698697151/Wanderlust_DEV/ypji7hmf0z5iduqncdew.jpg",
+    "filename": "Wanderlust_DEV/ypji7hmf0z5iduqncdew"
+  },
+  "category": "other"
+},
+{
+  "_id": {
+    "$oid": "6540038641894f33fd31d19f"
+  },
+  "title": "Lakefront Cabin in New Hampshire",
+  "description": "Spend your days by the lake in this cozy cabin in the scenic White Mountains of New Hampshire.",
+  "price": 1200,
+  "location": "New Hampshire",
+  "country": "United States",
+  "review": [],
+  "owner": {
+    "$oid": "653fe31eaf796120a8015e1e"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      "71.5724",
+      "43.1939"
+    ]
+  },
+  "__v": 0,
+  "image": {
+    "url": "https://res.cloudinary.com/dfd52un8n/image/upload/v1698697221/Wanderlust_DEV/yiitiozbnpmyjfnnslq4.jpg",
+    "filename": "Wanderlust_DEV/yiitiozbnpmyjfnnslq4"
+  },
+  "category": "camping"
+},
+{
+  "_id": {
+    "$oid": "6540038641894f33fd31d1a0"
+  },
+  "title": "Dome",
+  "description": "Amazing place in the season of rain",
+  "price": 1200,
+  "location": "Mumbai",
+  "country": "India",
+  "review": [],
+  "owner": {
+    "$oid": "653fe31eaf796120a8015e1e"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      "72.8777",
+      "19.0760"
+    ],
+    "category": "other"
+  },
+  "__v": 0,
+  "image": {
+    "url": "https://res.cloudinary.com/dfd52un8n/image/upload/v1698712789/Wanderlust_DEV/zzednzoivaob5wxoaw7d.jpg",
+    "filename": "Wanderlust_DEV/zzednzoivaob5wxoaw7d"
+  },
+  "category": "dome"
+},
+{
+  "_id": {
+    "$oid": "654049d624962f380b09629f"
+  },
+  "title": "Artic Circle",
+  "description": "The Arctic Circle is one of the two polar circles, and the most northerly of the five major circles of latitude as shown on maps of Earth at about 66° 34' N.[1] Its southern equivalent is the Antarctic Circle.",
+  "image": {
+    "url": "https://res.cloudinary.com/dfd52un8n/image/upload/v1698712074/Wanderlust_DEV/zg8vrdx74xuggqhcmsjv.webp",
+    "filename": "Wanderlust_DEV/zg8vrdx74xuggqhcmsjv"
+  },
+  "price": 5500,
+  "location": "Alaska",
+  "country": "United States",
+  "review": [],
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -153.180996665583,
+      64.6358675746153
+    ]
+  },
+  "category": "artic",
+  "owner": {
+    "$oid": "653fe31eaf796120a8015e1e"
+  },
+  "__v": 0
+}]

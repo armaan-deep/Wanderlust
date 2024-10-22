@@ -1,0 +1,28 @@
+<div class=row>
+    <%layout("/layouts/boiler")%>
+      <div class="col-6 offset-3"><br/><br/>
+      <h2>Sign Up</h2>
+        <form action="/signup" method="post" novalidate class="needs-validation" >
+          <div class="mb-3">
+            <label for="username" class="form-label">Username</label>
+            <input type="text" class="form-control" required name="username">
+            <div class="valid-feedback">Username looks great ! </div>
+            <div class="invalid-feedback">Unique Username required</div>
+          </div>
+          
+
+          <div class="mb-3">
+            <label for="email" class="form-label" >Email</label>
+            <input type="email" name="email"  required class="form-control">
+            <div class="invalid-feedback">Please Enter Valid and Unique Email </div>
+          </div>
+    
+          <div class="mb-3">
+               <label for="password" class="form-label">Password</label>
+               <input type="password" name="password" required class="form-control">
+               <div class="invalid-feedback">Strong Password required</div>
+          </div>
+          <button class="btn btn-dark ">Submit</button>
+        </form> 
+      </div>
+    </div>

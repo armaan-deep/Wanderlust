@@ -1,0 +1,65 @@
+<div class=row>
+<%layout("/layouts/boiler")%>
+  <div class="col-8 cont-nw-list"><br/><br/>
+  <h2>Create new Listing</h2>
+    <form action="/listings/new" method="post" novalidate class="needs-validation" enctype="multipart/form-data">
+      <div class="mb-3">
+        <label for="title" class="form-label">Title</label>
+        <input type="text" class="form-control" required name="list[title]">
+      <div class="valid-feedback">Title looks great ! </div>
+      <div class="invalid-feedback">Title required</div>
+      </div>
+      
+      <div class="mb-3">
+        <label for="description" class="form-label">Description</label> 
+        <textarea name="list[description]" required class="form-control"></textarea>
+        <div class="valid-feedback">Description looks attractive  </div>
+        <div class="invalid-feedback">Plese Wrote Short Description</div>
+      </div>
+     
+      <div class="mb-3">
+        <label for="image" class="form-label">Upload Image</label>
+        <input type="file" name="list[image]"  class="form-control">
+        <div class="invalid-feedback">Please provide Image </div>
+      </div>
+
+     <div class="row mb-3">
+           <div class="col-md-4">
+                <label for="price" class="form-label">Price</label>
+                <input type="number" name="list[price]" required class="form-control">
+                <div class="invalid-feedback"> Please Enter Valid price</div>
+            </div>
+
+            <div class="col-md-8">
+              <label for="country" class="form-label">Country</label>
+               <input type="text" name="list[country]" required class="form-control"> 
+               <div class="invalid-feedback"> Please Enter Valid Country</div>
+             </div>
+      </div>
+      
+       <div class="mb-3">
+        <label class="form-label" for=" location">Enter Location</label> 
+        <input type="text" class="form-control" required name="list[location]" >
+        <div class="invalid-feedback"> Please Enter Valid Location</div>
+      </div>
+
+      <div class="mb-3">
+        <label for="cat">Choose a category :</label>
+        <select id="cat" name="list[category]" class="form-select">
+          <option selected value="new">New</option>
+          <option value="room">Room</option>
+          <option value="iconic">Iconic City</option>
+          <option value="artic">Artic</option>
+          <option value="castle">Castle</option>
+          <option value="mountain">Mountain</option>
+          <option value="water">Water</option>
+          <option value="farm">Farm</option>
+          <option value="dome">Dome</option>
+          <option value="camping">Camping</option>
+          <option value="other">Other</option>          
+        </select>
+      </div>
+       <button class="btn btn-dark ">Submit</button>
+    </form> 
+  </div>
+</div>
